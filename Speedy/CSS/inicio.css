@@ -1,0 +1,137 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, sans-serif;
+}
+
+
+/*CrearCuenta*/
+.crearcuenta {
+   
+    position: fixed; /* Fija la posición de la imagen */
+    top: 2%; /* Coloca la imagen en la parte superior */
+    position: absolute; /* Fija la posición de la imagen */
+    left: 90%; /* Centra la imagen horizontalmente */
+    transform: translateX(-50%); /* Centra la imagen horizontalmente */
+    padding:30px;
+
+}
+.crearcuenta img {
+    width:32px;
+    height:32px;
+    position: absolute; /* Fija la posición de la imagen */
+    top: 20%; /* Coloca la imagen en la parte superior */
+    left: 95%; /* Centra la imagen horizontalmente */
+    transform: translateX(-50%); /* Centra la imagen horizontalmente */
+}
+
+.crearcuenta a{
+    text-decoration: none;
+    color:black;
+
+}
+/*TopBar*/
+.topbar {
+    
+    background-color:#b1b1b1;
+    padding:6px;
+    
+}
+
+.topbar a{
+    color:black;
+    text-decoration:none;
+    padding: 10px;
+    font-size: 14px;
+    
+}
+
+.textlogo {
+    text-align: center;
+   
+}
+
+.logo img {
+    width:140px;
+    height:80px;
+}
+
+.textlogo img{
+    width:190px;
+    height:90px;
+    position: absolute; /* Fija la posición de la imagen */
+    top: -10px; /* Coloca la imagen en la parte superior */
+    left: 50%; /* Centra la imagen horizontalmente */
+     transform: translateX(-50%); /* Centra la imagen horizontalmente */
+}
+
+.lineablanca {
+    width: 100%; /* Ancho de la línea */
+    height: 1px; /* Grosor de la línea */
+    background-color: white; /* Color de la línea */
+   
+}
+
+/*footer*/
+
+.social-media img {
+    width: 32px; /* Ancho deseado */
+    height: 32px; /* Alto deseado */
+     /* Para asegurarse de que la imagen ocupe todo el espacio especificado */
+}
+
+.footer p {
+    text-align: center;
+}
+
+/*slogan*/
+.hometop{
+    background-image: url('https://static.wixstatic.com/media/11062b_9823b4012f554de49fd3b41a713ad0bd~mv2.jpg/v1/fill/w_980,h_760,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/11062b_9823b4012f554de49fd3b41a713ad0bd~mv2.jpg');
+    background-size: cover;
+    background-position: center;
+    font-weight: bold;
+    color: black; 
+    text-shadow: 
+      -1px -1px 0 white,  
+       1px -1px 0 white,
+      -1px  1px 0 white,
+       1px  1px 0 white;
+}
+p {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+/*Contenido*/
+
+.quienesomos h1 {
+    
+    text-align: justify; /* Texto justificado */
+   color:white;
+   text-shadow: 
+      -1px -1px 0 black,  
+       1px -1px 0 black,
+      -1px  1px 0 black,
+       1px  1px 0 black;
+   
+    
+}
+.quienesomos p {
+    width: 500px; /* Ancho de la caja de texto */
+    height: 150px; /* Alto de la caja de texto */
+    text-align: justify; /* Texto justificado */
+    padding: 10px; /* Espaciado interno */
+    resize: none; /* Evita que el usuario pueda cambiar el tamaño */
+    color:white;
+    
+}
+    
+
+
+.container3 {
+    display: flex; /* Utiliza el modelo de cajas flexibles */
+    justify-content: center; /* Centra horizontalmente los elementos */
+    align-items: center; /* Centra verticalmente los elementos */
+    background-color: rgb(150, 138, 125);
+    
+}

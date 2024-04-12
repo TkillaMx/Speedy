@@ -1,0 +1,142 @@
+/*Menu*/
+.producto img {
+  width: 30px;
+  height: 30px;
+  
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f2f5;
+}
+
+a{
+  font-size: 16px;
+  text-decoration: none;
+  color:grey;
+  padding:10px;
+}
+.container {
+    max-width:200px;
+    
+    padding: 5px;
+    display:grid;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.product {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.cart-item {
+    background-color: #f8f9fa;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#cart {
+    background-color: #fff;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+/*CrearCuenta*/
+.crearcuenta {
+ 
+  position: fixed; /* Fija la posición de la imagen */
+  top: 2%; /* Coloca la imagen en la parte superior */
+  position: absolute; /* Fija la posición de la imagen */
+  left: 90%; /* Centra la imagen horizontalmente */
+  transform: translateX(-50%); /* Centra la imagen horizontalmente */
+  padding:30px;
+
+}
+.crearcuenta img {
+  width:32px;
+  height:32px;
+  position: absolute; /* Fija la posición de la imagen */
+  top: 20%; /* Coloca la imagen en la parte superior */
+  left: 95%; /* Centra la imagen horizontalmente */
+  transform: translateX(-50%); /* Centra la imagen horizontalmente */
+}
+
+.crearcuenta a{
+  text-decoration: none;
+  color:black;
+
+}
+/*TopBar*/
+.topbar {
+  
+  background-color:#b1b1b1;
+  padding:6px;
+  
+}
+
+.topbar a{
+  color:black;
+  text-decoration:none;
+  padding: 10px;
+  font-size: 14px;
+  
+}
+
+.textlogo {
+  text-align: center;
+ 
+}
+
+.logo img {
+  width:140px;
+  height:80px;
+}
+
+.textlogo img{
+  width:190px;
+  height:90px;
+  position: absolute; /* Fija la posición de la imagen */
+  top: -10px; /* Coloca la imagen en la parte superior */
+  left: 50%; /* Centra la imagen horizontalmente */
+   transform: translateX(-50%); /* Centra la imagen horizontalmente */
+}
+
+.lineablanca {
+  width: 100%; /* Ancho de la línea */
+  height: 1px; /* Grosor de la línea */
+  background-color: white; /* Color de la línea */
+ 
+}
+
+/*footer*/
+
+.social-media img {
+  width: 32px; /* Ancho deseado */
+  height: 32px; /* Alto deseado */
+   /* Para asegurarse de que la imagen ocupe todo el espacio especificado */
+}
+
+.footer p {
+  text-align: center;
+}
